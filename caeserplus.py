@@ -4,7 +4,6 @@
 from encrypt.encode import encode
 from encrypt.decode import decode
 
-VERSION = "0.1.0"
 COMMANDS = [
 	"encode",
 	"decode"
