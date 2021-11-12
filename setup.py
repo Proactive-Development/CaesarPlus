@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='CaeserPlus',
-    url=https://github.com/awesomelewis2007/CaesarPlus/'',
+    url='https://github.com/awesomelewis2007/CaesarPlus/',
     author='Lewis Evans',
     author_email='awesomelewis2007@gmail.com',
     packages=['caeserplus'],
