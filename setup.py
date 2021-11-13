@@ -5,7 +5,7 @@ setup(
     url='https://github.com/awesomelewis2007/CaesarPlus/',
     author='Lewis Evans',
     author_email='awesomelewis2007@gmail.com',
-    packages=['caeserplus'],
+    packages=['src/caeserplus'],
     install_requires=[''],
     version='0.1.3',
     license='GNU',
