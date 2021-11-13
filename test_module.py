@@ -5,8 +5,8 @@ import pytest
 import sys
 import os
 
-from src.caesarplus import encode
-from src.caesarplus import decode
+from caesarplus import encode
+from caesarplus import decode
 
 def test_encrypt():
     encode("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")

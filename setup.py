@@ -5,9 +5,9 @@ setup(
     url='https://github.com/awesomelewis2007/CaesarPlus/',
     author='Lewis Evans',
     author_email='awesomelewis2007@gmail.com',
-    packages=['src/caesarplus'],
+    packages=['caesarplus'],
     install_requires=[''],
-    version='0.1.3',
+    version='0.1.4',
     license='GNU',
     description='An advanced caesar cypher python module'
 )
