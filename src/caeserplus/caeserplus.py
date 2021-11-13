@@ -1,3 +1,5 @@
+import sys
+sys.path.append("..")
 import ceaserplus
 ceaserplus.encode("Example")
 key,output = ceaserplus.encode("Example")
