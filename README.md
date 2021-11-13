@@ -68,3 +68,7 @@ The `decode()` function will output `data`/the decoded text.
 
 
 **<p style="color: red;display:inline">Warning:</p>** You must use the correct key to decode the encrypted text.
+
+## How it works
+
+![Flowchart](https://raw.githubusercontent.com/awesomelewis2007/CaesarPlus/main/Documentation/Flowchart.png)
