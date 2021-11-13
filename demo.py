@@ -1,4 +1,4 @@
-# Caeserplus Demo
+# caesarplus Demo
 # Owner: awesomelewis2007
 # Co-Owner: WolfieBoy
 import sys
@@ -13,7 +13,7 @@ def demo():
                 [sg.Button('Ok'), sg.Button('Quit')] ]
 
     # Create the Window
-    window = sg.Window('Caeserplus Demo', layout)
+    window = sg.Window('caesarplus Demo', layout)
     # Event Loop to process "events" and get the "values" of the inputs
     while True:
         event, values = window.read()
@@ -25,10 +25,10 @@ def demo():
             break
     return values[0]
 def output_message(values):
-    import caeserplus
+    import caesarplus
     import PySimpleGUI as sg
     import sys
-    key,output = caeserplus.encode(values)
+    key,output = caesarplus.encode(values)
     sg.theme('Green')   # Add a touch of color
     # All the stuff inside your window.
     layout = [  [sg.Text("Command completed successfully.")],
@@ -37,7 +37,7 @@ def output_message(values):
                 [sg.Button('Ok'), sg.Button('Quit')] ]
 
     # Create the Window
-    window = sg.Window('Caeserplus Demo', layout)
+    window = sg.Window('caesarplus Demo', layout)
     # Event Loop to process "events" and get the "values" of the inputs
     print(key)
     print(output)

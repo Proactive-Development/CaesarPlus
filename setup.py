@@ -1,11 +1,11 @@
 from setuptools import setup
 
 setup(
-    name='CaeserPlus',
+    name='caesarplus',
     url='https://github.com/awesomelewis2007/CaesarPlus/',
     author='Lewis Evans',
     author_email='awesomelewis2007@gmail.com',
-    packages=['src/caeserplus'],
+    packages=['src/caesarplus'],
     install_requires=[''],
     version='0.1.3',
     license='GNU',

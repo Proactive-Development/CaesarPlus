@@ -1,12 +1,12 @@
-# Caeserplus Main Module
+# caesarplus Main Module
 # Owner: awesomelewis2007
 # Co-Owner: WolfieBoy
 import pytest
 import sys
 import os
 
-from src.caeserplus import encode
-from src.caeserplus import decode
+from src.caesarplus import encode
+from src.caesarplus import decode
 
 def test_encrypt():
     encode("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
