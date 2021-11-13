@@ -7,7 +7,7 @@ setup(
     author_email='awesomelewis2007@gmail.com',
     packages=['caeserplus'],
     install_requires=[''],
-    version='0.1.1',
+    version='0.1.2',
     license='GNU',
     description='An advanced caesar cypher python module'
 )

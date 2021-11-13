@@ -13,7 +13,7 @@ def demo():
                 [sg.Button('Ok'), sg.Button('Quit')] ]
 
     # Create the Window
-    window = sg.Window('Window Title', layout)
+    window = sg.Window('Caeserplus Demo', layout)
     # Event Loop to process "events" and get the "values" of the inputs
     while True:
         event, values = window.read()
@@ -31,13 +31,13 @@ def output_message(values):
     key,output = caeserplus.encode(values)
     sg.theme('Green')   # Add a touch of color
     # All the stuff inside your window.
-    layout = [  [sg.Text("Command completed successfully")],
+    layout = [  [sg.Text("Command completed successfully.")],
                 [sg.Text("Key:"+str(key))],
                 [sg.Text("Output:"+output)],
                 [sg.Button('Ok'), sg.Button('Quit')] ]
 
     # Create the Window
-    window = sg.Window('Window Title', layout)
+    window = sg.Window('Caeserplus Demo', layout)
     # Event Loop to process "events" and get the "values" of the inputs
     print(key)
     print(output)
