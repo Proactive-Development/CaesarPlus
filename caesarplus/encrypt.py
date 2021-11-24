@@ -1,3 +1,7 @@
+# caesarplus Encrypt Module
+# Owner: awesomelewis2007
+# Co-Owner: WolfieBoy
+
 def caesar_encrypt(word,shift):
     c = ''
     for i in word:

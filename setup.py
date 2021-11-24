@@ -1,3 +1,7 @@
+# caesarplus Setup file
+# Owner: awesomelewis2007
+# Co-Owner: WolfieBoy
+
 from setuptools import setup
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -10,7 +14,7 @@ setup(
     author_email='awesomelewis2007@gmail.com',
     packages=['caesarplus'],
     install_requires=[''],
-    version='0.1.6',
+    version='0.1.7',
     license='GNU',
     long_description=long_description,
     long_description_content_type="text/markdown",
