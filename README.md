@@ -31,7 +31,7 @@ cp.encode("Example")
 ([4, 4, 1, 7, 5, 0, 6], 'I|btulk')
 
 #To decode data
-cp.decode('I|btulk', [4, 4, 1, 7, 5, 0, 6])
+cp.decode( [4, 4, 1, 7, 5, 0, 6],'I|btulk')
 'Example'
 ```
 
@@ -57,11 +57,11 @@ The `decode()` function decodes data in the CaesarPlus encryption method
 #### Example
 
 ```Python
-cp.decode('I|btulk', [4, 4, 1, 7, 5, 0, 6])
+cp.decode( [4, 4, 1, 7, 5, 0, 6],'I|btulk')
 'Example'
 ```
 
-To decode it must be `data` before `key` and the `key` must be an array/list.
+To decode it must be `key` before `data` and the `key` must be an array/list.
 
 The `decode()` function will output `data`/the decoded text.
 
