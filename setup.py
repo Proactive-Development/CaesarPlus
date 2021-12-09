@@ -3,7 +3,7 @@
 # Co-Owner: WolfieBoy
 
 from setuptools import setup
-
+#This is to include the readme from the github repo
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
     
