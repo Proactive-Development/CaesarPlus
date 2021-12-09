@@ -7,8 +7,10 @@ COMMANDS = [
 	"encode",
 	"decode"
 ]
+#Place modules in / here 
 from .encrypt import caesar_encrypt
 from .decrypt import caesar_decrypt
+#Python modules
 import random
 def encode(data):
 	key = []
