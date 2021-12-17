@@ -3,11 +3,11 @@
 # Co-Owner: WolfieBoy
 
 def caesar_decrypt(word,shift):
-    c = ''
+    caesar = ''
     for i in word:
         if (i == ' '):
-            c += ' '
+            caesar += ' '
         else:
-            c += (chr(ord(i) - shift))
-    return c
+            caesar += (chr(ord(i) - shift))
+    return caesar
 
