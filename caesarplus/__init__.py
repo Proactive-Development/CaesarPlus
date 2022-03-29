@@ -1,8 +1,3 @@
-# caesarplus Main Module
-# Owner: awesomelewis2007
-# Co-Owner: WolfieBoy
-
-#Place modules in / here 
 from .encrypt import caesar_encrypt
 from .decrypt import caesar_decrypt
 #Python modules

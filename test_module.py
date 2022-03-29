@@ -1,7 +1,3 @@
-# caesarplus Pytest script
-# Owner: awesomelewis2007
-# Co-Owner: WolfieBoy
-
 import pytest
 import sys
 import os
