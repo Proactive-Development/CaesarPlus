@@ -1,4 +1,4 @@
-# <img src="https://img.icons8.com/fluency/240/000000/key-security.png" width="50px"/> CaesarPlus
+# <img src="https://raw.githubusercontent.com/Proactive-Development/Logos/main/CaesarPlus/CaesarPlus.png" width="50px"/> CaesarPlus
 An advanced caesar cypher python module
 
 [Want a Javascript version for HTML and NodeJS Click here](https://github.com/Proactive-Development/CaesarPlus-JS)
