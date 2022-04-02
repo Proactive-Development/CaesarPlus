@@ -4,7 +4,7 @@ An advanced caesar cypher python module
 ## What is CaesarPlus
 CaesarPlus is a advanced caesar cypher python module that is more secure than caesar cypher 
 
-It makes a unique encryption every time you encode a piece 
+It makes a unique encryption every time you encode a piece of data
 
 ## <img src="https://img.icons8.com/fluency/144/000000/services.png" width="45px"/> Installation
 
