@@ -1,0 +1,17 @@
+{
+    "name": "CaesarPlus",
+    "description": "An advanced caesar cypher python module",
+    "version": "0.1.8",
+    "main_file": "./caesarplus/__init__.py",
+    "author": "Proactive Development",
+    "license": "none",
+    "url": "none",
+    "email": "none",
+    "languages": [
+        "python"
+    ],
+    "actions": {
+        "test": "python -m pytest",
+        "build": "python -m build && python -m twine upload dist/*"
+    }
+}
