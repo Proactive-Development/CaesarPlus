@@ -6,8 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setup(
     name='caesarplus',
     url='https://github.com/awesomelewis2007/CaesarPlus/',
-    author='Lewis Evans',
-    author_email='awesomelewis2007@gmail.com',
+    author='Proactive-Development',
     packages=['caesarplus'],
     install_requires=[''],
     version='0.1.8',
